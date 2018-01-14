@@ -1,0 +1,123 @@
+div#slider_top {
+    /* width:  75%; */
+    /* float:  left; */
+    /* position:  relative; */
+}
+
+div#slider {
+    float:  left;
+    width: 74%;
+    position:  relative;
+    margin:  0;
+    padding: 0;
+    border:  none !important;
+    background:  #ededed;
+}
+
+div#carousel {
+    width: 26%;
+    float:  right;
+    position:  relative;
+    margin:  0;
+    padding:  0;
+    border:  none !important;
+}
+
+#slider .flex-viewport {
+    height: 361.5px !important;
+}
+
+#slider img {
+    /* display: block !important; */
+    position:  absolute;
+    top: 0;
+    bottom:  0;
+    left:  0;
+    right:  0;
+    margin: auto;
+    display:  block;
+}
+
+ol.flex-control-nav.flex-control-paging {
+    display:  none;
+}
+
+ul.flex-direction-nav {
+    display:  none;
+}
+
+#slider_top .flexslider .slides>li {
+    position:  relative;
+    height: 368px;
+    text-align:  center;
+}
+
+#carousel ul.slides {
+    width:  100% !important;
+    /* float: right !important; */
+    transform:  none !important;
+}
+
+li {}
+
+#slider_top .carousel.flexslider .slides>li, #slider_top .carousel.flexslider .slides li {
+    height: 73.5px;
+    position:  relative;
+    float:  none !important;
+    border-bottom:  1px solid #e0e0e0;
+    text-align: left;
+    padding:  0px 10px 0 50px;
+    width: 100% !important;
+    box-sizing:  border-box;
+}
+
+.box_title_slide {
+    height:  75px;
+    width:  100%;
+    line-height: 75px;
+}
+
+p.title_sp_slide {
+    display:  inline-block;
+    vertical-align: middle;
+    line-height:  normal;
+}
+
+.box_title_slide a {
+    color: #d41212 !important;
+    text-decoration:  none !important;
+}
+
+#slider_top .carousel.flexslider .slides>li .arrow_active {
+    position:  absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: -16px;
+    display:  none;
+    z-index: 10;
+}
+
+span.arrow_left_banner {
+    position:  absolute;
+    top:  50%;
+    left:  10px;
+    margin-top: -10px;
+}
+
+#slider_top .carousel.flexslider .slides>li.flex-active-slide {
+    background: #e0e0e0;
+}
+
+#slider_top .carousel.flexslider .slides>li.flex-active-slide .arrow_active {
+    display:  block;
+}
+
+#slider_top .carousel.flexslider .slides>li .arrow_active i {
+    color: #e0e0e0;
+    transform: rotate(-180deg);
+    font-size:  20px;
+}
+
+#slider_top .carousel.flexslider .slides>li.flex-active-slide .arrow_active {
+    display:  block;
+}

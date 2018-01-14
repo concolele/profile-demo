@@ -1,0 +1,60 @@
+.logo img {
+    margin-top: 5px;
+    width: 100px;
+    height: 100%;
+}
+
+.menu-top {
+    float: right;
+    display:  inline-block;
+    margin-top: 10px;
+}
+
+.menu-top li {
+    display:  inline-block;
+    padding: 10px;
+}
+
+header {
+    border-bottom: 1px solid #ededed;
+    /* padding: 10px; */
+}
+
+.menu-top a {
+    color: #111;
+    text-decoration:  none;
+    text-transform:  uppercase;
+}
+
+.container {
+    padding: 10px;
+}
+
+a.menu-item.active {color: #f51919;}
+
+section.wrapper-slide {
+    background: #ededed;
+    position:  relative;
+}
+
+.slide-top {
+    position:  relative;
+}
+
+div#slider {
+    width: 74%;
+}
+
+div#carousel {
+    width: 26%;
+}
+
+ol.flex-control-nav.flex-control-paging {
+    display:  none;
+}
+
+ul.flex-direction-nav {
+    display:  none;
+}
+
+img {}
